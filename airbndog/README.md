@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Airbndog ... pour que votre dog soit heureux/
 
-Things you may want to cover:
+Bien penser à lancer un bundle install
 
-* Ruby version
+Pour info, il y a 5 models (city, dogsister, dog, stroll, dogstroll)
+J'ai rajouté le dogstroll car il y a plusieurs chiens pour chaque stroll (promenade)
 
-* System dependencies
+Il y a aussi un fichier seed.
 
-* Configuration
+BOn évaluation
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
