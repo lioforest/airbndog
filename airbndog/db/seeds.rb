@@ -36,6 +36,13 @@ end
 # On cree des stroll qui ont un dogsitter
 20.times do
 	h = Stroll.create(dogsister_id: Dogsister.all.sample, city: City.all.sample)
-	puts "Stoll #{h.city}"
+	puts "Stroll #{h.city}"
+	3.times do 
+		dogstro = Dogstroll.create(dog_id: Dog.all.sample, stroll_id: Stroll.all.sample)	
+			puts "    DogStroll #{dogstro.dog_id}"
+
+	end
+
 
 end
+
